@@ -1,6 +1,6 @@
 # latejedorademundos-redirect
 
-Redirect from `latejedorademundos.com` to `www.lacreadorademundos.com`
+Redirect from [latejedorademundos.com](https://latejedorademundos.com) to [www.lacreadorademundos.com](https://www.lacreadorademundos.com)
 
 ## How it works
 
