@@ -1,16 +1,22 @@
 <!doctype html>
-<meta charset="utf-8">
-<title>Redirigiendo…</title>
-<meta http-equiv="refresh" content="0; url=https://www.lacreadorademundos.com/">
-<meta name="robots" content="noindex,follow">
-<link rel="canonical" href="https://www.lacreadorademundos.com/">
-<script>
-  (function () {
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Redirecting...</title>
+  <meta http-equiv="refresh" content="0; url=https://www.lacreadorademundos.com/">
+  <meta name="robots" content="noindex,follow">
+  <link rel="canonical" href="https://www.lacreadorademundos.com/">
+  <script>
+    // Preserve path/query/hash; replace() avoids back button
     var dest = "https://www.lacreadorademundos.com" +
-               window.location.pathname +
-               window.location.search +
-               window.location.hash;
-    // replace() evita “volver atrás” a la URL vieja
+      window.location.pathname + window.location.search + window.location.hash;
     window.location.replace(dest);
-  })();
-</script>
+  </script>
+</head>
+<body>
+  <noscript>
+    <meta http-equiv="refresh" content="0; url=https://www.lacreadorademundos.com/">
+    <a href="https://www.lacreadorademundos.com/">Go to lacreadorademundos.com</a>
+  </noscript>
+</body>
+</html>
